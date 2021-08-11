@@ -22,7 +22,7 @@ const newLi=document.createElement('li');
 newLi.textContent='Глава 8: За пределами ES6';
 
 let collectionLi=document.querySelectorAll('li');
-
+console.log(collectionLi);
 collectionLi[55].after(newLi);
 
 collectionLi[9].after(collectionLi[12]);
@@ -31,3 +31,4 @@ collectionLi[12].after(collectionLi[14]);
 collectionLi[37].after(collectionLi[45]);
 collectionLi[9].after(collectionLi[12]);
 collectionLi[40].after(collectionLi[38]);
+collectionLi[15].after(collectionLi[8]);
